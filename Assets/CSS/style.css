@@ -1,16 +1,57 @@
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
+  background-image: linear-gradient(coral, rgba(255, 255, 0, 0.173));
 }
 
-textarea{
+main {
+  width: 80%;
+  margin: auto;
+}
+
+.block {
+  display: flex;
+  align-items: start;
+}
+
+.past {
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.619);
+  align-items: left;
+}
+
+.current {
+  width: 100%;
+  background-color: rgb(170, 4, 4);
+}
+
+.future {
+  width: 100%;
+  background-color: green;
+}
+
+textarea {
   background: transparent;
   border: none;
   resize: none;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+}
+
+.save-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: black !important;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block !important;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
 .jumbotron {
@@ -21,25 +62,43 @@ textarea{
   border-bottom: 10px solid black;
 }
 
-.description{
+.description {
   white-space: pre-wrap;
 }
 
-.time-block{
+.time-block {
   text-align: center;
   border-radius: 15px;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid white;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+}
+
+.hour-label{
+  font-size: large;
+  display: flex;
+  min-width: 4%;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
 }
 
 .past {
@@ -61,11 +120,11 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #06aed5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
