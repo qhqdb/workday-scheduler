@@ -8,4 +8,6 @@
 
 This scheduler allows the user to plan out the current day by entering in events into time blocks that are color-coded to indicate whether they are in the past, present, or future.
 
-[](../../../../media/D1J9QyblwqdnEigc9Y/giphy.gif)
+## Walkthrough
+
+![Walkthrough](./Assets/workdaywalkthrough.gif)
