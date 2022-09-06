@@ -2,7 +2,7 @@ var now = moment();
 $("#currentDay").text(now.format("MMM Do, YYYY HH:MM"));
 var blockContainer = document.getElementById("container");
 var startTime = 9;
-var endTime = 5;
+var endTime = 17;
 var currentHour = now.format("HH");
 var hourColor = "";
 
